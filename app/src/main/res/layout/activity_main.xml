@@ -3,190 +3,182 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="300sp">
+        android:layout_height="300dp">
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
             android:src="@drawable/amala" />
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
+            android:layout_alignParentStart="true"
             android:layout_alignParentBottom="true"
-            android:layout_alignParentLeft="true"
-            android:layout_marginBottom="20sp">
+            android:orientation="vertical">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Chop Better"
-                android:layout_marginLeft="20sp"
-                android:textSize="50dp"
-                android:textStyle="bold"
+                android:layout_marginStart="20dp"
+                android:text="@string/business_title"
                 android:textColor="@color/titleColor"
-                />
+                android:textSize="50sp"
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginBottom="5dp"
                 android:text="Phone: +2348093570289"
-                android:layout_marginLeft="20sp"
-                android:layout_marginBottom="5sp"
-                android:textSize="16dp"
-                android:textStyle="bold"
                 android:textColor="@color/titleColor"
-                />
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginBottom="5dp"
                 android:text="Email: olanrewajuahmed095@yahoo.com"
-                android:layout_marginLeft="20sp"
-                android:layout_marginBottom="5sp"
-                android:textSize="16dp"
-                android:textStyle="bold"
                 android:textColor="@color/titleColor"
-                />
+                android:textSize="16sp"
+                android:textStyle="bold" />
 
         </LinearLayout>
-     </RelativeLayout>
+    </RelativeLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginTop="20sp"
-        >
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
             android:text="Address"
-            android:layout_marginLeft="20sp"
-            android:textSize="16dp"
-            android:textStyle="bold"
-            android:layout_alignParentBottom="true"
-            />
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
             android:text="5c Ayobabalola magodo, GRA, off Wale Adelekan street, Ikosi Ketu, Lagos, Nigeria."
-            android:layout_marginLeft="20sp"
-            android:textSize="16dp"
-            android:textStyle="normal"
-            android:layout_alignParentBottom="true"
-            />
+            android:textSize="16sp"
+            android:textStyle="normal" />
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginTop="20sp"
-        >
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
             android:text="Description"
-            android:layout_marginLeft="20sp"
-            android:textSize="16dp"
-            android:textStyle="bold"
-            android:layout_alignParentBottom="true"
-            />
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
             android:text="We sell Africa dish at affordable price."
-            android:layout_marginLeft="20sp"
-            android:textSize="16dp"
-            android:textStyle="normal"
-            android:layout_alignParentBottom="true"
-            />
+            android:textSize="16sp"
+            android:textStyle="normal" />
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginTop="20sp"
-        >
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
             android:text="Opening Hours"
-            android:layout_marginLeft="20sp"
-            android:textSize="16dp"
-            android:textStyle="bold"
-            android:layout_alignParentBottom="true"
-            />
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
                 android:text="WeekDays:"
-                android:layout_marginLeft="20sp"
-                android:textSize="16dp"
-                android:textStyle="normal"
-                android:layout_alignParentBottom="true"
-                />
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
                 android:text="8:00AM - 5:30PM"
-                android:layout_marginLeft="20sp"
-                android:textSize="16dp"
-                android:textStyle="normal"
-                android:layout_alignParentBottom="true"
-                />
+                android:textSize="16sp"
+                android:textStyle="normal" />
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
                 android:text="Friday:"
-                android:layout_marginLeft="20sp"
-                android:textSize="16dp"
-                android:textStyle="normal"
-                android:layout_alignParentBottom="true"
-                />
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
                 android:text="12:00PM - 8:00PM"
-                android:layout_marginLeft="20sp"
-                android:textSize="16dp"
-                android:textStyle="normal"
-                android:layout_alignParentBottom="true"
-                />
+                android:textSize="16sp"
+                android:textStyle="normal" />
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
                 android:text="Weekend:"
-                android:layout_marginLeft="20sp"
-                android:textSize="16dp"
-                android:textStyle="normal"
-                android:layout_alignParentBottom="true"
-                />
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
                 android:text="12:00PM - 8:00PM"
-                android:layout_marginLeft="20sp"
-                android:textSize="16dp"
-                android:textStyle="normal"
-                android:layout_alignParentBottom="true"
-                />
+                android:textSize="16sp"
+                android:textStyle="normal" />
         </LinearLayout>
     </LinearLayout>
 
